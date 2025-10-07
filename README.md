@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)  
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Regression-green)  
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)  
-![License](https://img.shields.io/badge/License-MIT-yellow)  
 
 An end-to-end **machine learning project** that predicts the price of laptops based on their specifications such as brand, processor, RAM, GPU, storage, and more. 🚀  
 
@@ -71,4 +70,45 @@ Users can enter laptop specs and instantly get a predicted price.
 ---
 
 ## 📂 Project Structure  
+Laptop_price_predictor/
+│
+├── main.py # Entry script for prediction
+├── requirements.txt # Dependencies
+├── setup.sh # Setup script
+├── df.pkl # Processed dataset
+├── pipe.pkl # Trained ML pipeline
+├── Procfile # Deployment file
+└── README.md # Documentation
+
+## ⚙️ Installation & Setup  
+
+1. Clone the repository:  
+git clone https://github.com/Riddhima8/Laptop_price_predictor.git
+cd Laptop_price_predictor
+
+2.Create a virtual environment:
+python -m venv venv
+source venv/bin/activate     # Linux/Mac
+venv\Scripts\activate        # Windows
+
+3. Install dependencies:
+pip install -r requirements.txt
+
+4. Run the script:
+python main.py
+
+📈 Results
+✔️ Accurate predictions for a wide range of laptops
+✔️ Handles categorical + numerical features
+✔️ Easy to extend with new datasets
+
+🚀 Future Improvements
+Collect larger and more updated datasets
+
+Experiment with deep learning models
+
+Add features like battery life, weight, display quality
+
+Build a full-fledged web UI for real-time predictions
+
 
