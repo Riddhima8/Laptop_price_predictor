@@ -60,10 +60,9 @@ Laptop Price Predictor follows this workflow:
  
 
 - **R² Score:** 0.87  
-- **MAE:** 4,200 ₹  
-- **RMSE:** 6,100 ₹  
 
-*(Numbers are placeholders – replace with your results!)*  
+
+
 
 ---
 
