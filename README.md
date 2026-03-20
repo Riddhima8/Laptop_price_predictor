@@ -68,7 +68,7 @@ Laptop Price Predictor follows this workflow:
 
 ### 🔹 Web/App Interface (Optional)  
 
-If deployed with **Flask / Streamlit / Heroku**:  
+If deployed with **Render**:  
 
 ![App Demo](https://laptop-price-predictor-1-m544.onrender.com/)  
 
@@ -82,7 +82,7 @@ Users can enter laptop specs and instantly get a predicted price.
 - **Scikit-learn, Pandas, NumPy**  
 - **Pickle** for model serialization  
 - **Matplotlib / Seaborn** for visualization  
-- **Heroku / Flask / Streamlit** (for deployment)  
+- **Render** (for deployment)  
 
 ---
 
